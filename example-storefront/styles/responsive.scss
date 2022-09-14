@@ -1,0 +1,4554 @@
+/* Max width 767px */
+@media only screen and (max-width : 767px) {
+
+    body {
+        font-size: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .ptb-100 {
+        padding: {
+            top: 60px;
+            bottom: 60px;
+        };
+    }
+    .pt-100 {
+        padding-top: 60px;
+    }
+    .pb-100 {
+        padding-bottom: 60px;
+    }
+    .ptb-70 {
+        padding: {
+            top: 30px;
+            bottom: 30px;
+        };
+    }
+    .pt-70 {
+        padding-top: 30px;
+    }
+    .pb-70 {
+        padding-bottom: 30px;
+    }
+    .default-btn {
+        padding: 11px 25px 11px 55px;
+        font-size: 14px;
+
+        span {
+            width: 43px;
+            height: 43px;
+            font-size: 28px;
+            line-height: 43px;
+        }
+        &::before {
+            width: 43px;
+        }
+        &.style-two {
+            padding: {
+                top: 10px;
+                left: 25px;
+                right: 40px;
+                bottom: 10px;
+            };
+            span {
+                right: 16px;
+                font-size: 22px;
+            }
+        }
+    }
+    .section-title {
+        margin-bottom: 35px;
+
+        .sub-title {
+            margin-bottom: 12px;
+            padding: 3px 15px;
+            font-size: 12px;
+        }
+        h2 {
+            font-size: 25px;
+
+            br {
+                display: none !important;
+            }
+        }
+        &.style-two {
+            text-align: center;
+
+            p {
+                margin-top: 10px;
+            }
+        }
+    }
+    .form-control {
+        padding: 14px 15px;
+        font-size: 14px;
+    }
+
+    .top-header-area {
+        text-align: center;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eeeeee;
+    }
+    .top-header-start {
+        .logo {
+            display: none !important;
+        }
+        .search-box {
+            width: 100%;
+            max-width: 290px;
+            margin: {
+                left: auto;
+                right: auto;
+            };
+            .input-search {
+                border-color: #f9f9f9;
+                background-color: #f9f9f9;
+            }
+        }
+    }
+    .top-header-end {
+        text-align: center;
+        margin-top: 15px;
+
+        .justify-content-end {
+            justify-content: center !important;
+        }
+        .number {
+            &::before {
+                margin-top: 1px;
+            }
+            a {
+                i {
+                    width: 25px;
+                    height: 25px;
+                    font-size: 14px;
+                    line-height: 23px;
+                }
+            }
+        }
+        .social-links {
+            li {
+                a {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .main-banner-area {
+        padding-top: 60px;
+    }
+    .main-banner-content {
+        text-align: center;
+
+        .sub-title {
+            font-size: 13px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .main-banner-image {
+        margin-top: 30px;
+        padding: {
+            top: 0;
+            right: 0;
+        };
+        &::before {
+            display: none;
+        }
+        .shape {
+            display: none;
+        }
+    }
+    .shape1, .shape2, .shape3, .shape4, .shape5, .shape6, .shape7, .shape8 {
+        display: none;
+    }
+
+    .single-features-box {
+        padding: 20px 15px;
+
+        .icon {
+            margin-bottom: 25px;
+
+            img {
+                width: 50px;
+            }
+        }
+        h3 {
+            margin-bottom: 12px;
+            font-size: 18px;
+        }
+    }
+
+    .about-image {
+        padding-right: 0;
+    }
+    .about-content {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 30px;
+
+        .sub-title {
+            padding: 3px 15px;
+            font-size: 12px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        p {
+            max-width: 100%;
+        }
+        .features-list {
+            margin: {
+                left: -10px;
+                right: -10px;
+            };
+            li {
+                padding: {
+                    left: 10px;
+                    right: 10px;
+                };
+                .d-flex {
+                    display: block !important;
+                }
+                .icon {
+                    width: 80px;
+                    height: 80px;
+                    line-height: 80px;
+                    margin: {
+                        left: auto;
+                        right: auto;
+                        bottom: 15px;
+                    };
+                    img {
+                        width: 45px;
+                    }
+                }
+                span {
+                    margin-left: 0;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .single-services-box {
+        padding: 20px 15px;
+        text-align: center;
+
+        .d-flex {
+            display: block !important;
+        }
+        img {
+            width: 50px;
+        }
+        h3 {
+            font-size: 18px;
+            margin: {
+                left: 0;
+                top: 18px;
+            };
+        }
+        p {
+            margin-top: 12px;
+        }
+        .features-list {
+            li {
+                span {
+                    text-align: start;
+                    display: inline-block;
+                }
+            }
+        }
+        .default-btn {
+            margin-top: 25px;
+        }
+        &::after {
+            margin: 2px;
+        }
+    }
+
+    .process-inner {
+        padding: {
+            top: 30px;
+            left: 15px;
+            right: 15px;
+            bottom: 0;
+        };
+    }
+    .single-process-box {
+        text-align: center;
+
+        .icon {
+            img {
+                width: 70px;
+            }
+        }
+        h3 {
+            font-size: 18px;
+        }
+    }
+
+    .single-case-studies-box {
+        text-align: center;
+
+        .content {
+            max-width: 100%;
+            padding-right: 0;
+
+            h3 {
+                font-size: 18px;
+            }
+            .features-list {
+                padding: {
+                    left: 15px;
+                    right: 15px;
+                };
+                li {
+                    font-size: 15px;
+                    margin: {
+                        left: 8px;
+                        right: 8px;
+                    };
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    span {
+                        font-size: 13px;
+                    }
+                }
+            }
+            .default-btn {
+                margin-top: 25px;
+            }
+        }
+        .image {
+            text-align: center;
+            padding-top: 0;
+            margin-top: 30px;
+
+            &::before {
+                display: none;
+            }
+        }
+    }
+    .case-studies-area {
+        &.extra-top-padding {
+            padding-top: 60px;
+        }
+    }
+    .case-studies-box {
+        padding: 20px 15px;
+
+        img {
+            margin-bottom: 20px;
+        }
+        h3 {
+            margin-bottom: 12px;
+            font-size: 18px;
+        }
+        .default-btn {
+            left: 0;
+            bottom: 0;
+            opacity: 1;
+            margin-top: 15px;
+            transform: unset;
+            position: relative;
+            visibility: visible;
+        }
+        &:hover {
+            img {
+                transform: scale(1) translateY(0);
+            }
+            h3 {
+                transform: translateY(0);
+            }
+            p {
+                transform: translateY(0);
+            }
+            .default-btn {
+                bottom: 0;
+            }
+        }
+    }
+    .case-studies-list {
+        padding: {
+            left: 0;
+            right: 0;
+        };
+        .single-case-studies-item {
+            margin: {
+                left: 0;
+                right: 0;
+                bottom: 30px;
+            };
+        }
+        .col-lg-5 {
+            &:nth-child(2) {
+                margin-top: 0;
+            }
+        }
+    }
+    .single-case-studies-item {
+        text-align: center;
+        padding: 15px 15px 25px;
+
+        img {
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 18px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .shorting-menu {
+        margin-bottom: 25px;
+        
+        .filter {
+            padding: 8px 25px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .team-area {
+        &.bg-gradient-image {
+            border-bottom: 1px solid #eeeeee;
+        }
+    }
+    .single-team-box {
+        .content {
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .single-blog-post {
+        .image {
+            padding-right: 0;
+
+            .date {
+                top: 0;
+                right: 0;
+                display: block;
+                margin-top: 20px;
+                transform: unset;
+                position: relative;
+                padding-left: 25px;
+                transform-origin: 0;
+
+                &::before {
+                    width: 15px;
+                    margin-top: 1px;
+                }
+            }
+        }
+        .content {
+            padding-right: 0;
+            margin-top: 15px;
+
+            h3 {
+                font-size: 18px;
+            }
+            .default-btn {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .get-started-area {
+        .col-lg-6 {
+            &:first-child {
+                order: 2;
+            }
+            &:last-child {
+                order: 1;
+            }
+        }
+    }
+    .get-started-content {
+        padding-top: 0;
+        text-align: center;
+
+        .sub-title {
+            margin-bottom: 12px;
+            padding: 3px 15px;
+            font-size: 12px;
+        }
+        h2 {
+            font-size: 25px;
+            margin-bottom: 12px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .get-started-image {
+        margin-top: 30px;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .page-title-area {
+        padding: {
+            top: 60px;
+            bottom: 60px;
+        };
+    }
+    .page-title-content {
+        h1 {
+            font-size: 25px;
+        }
+        ul {
+            margin-top: 10px;
+
+            li {
+                font-size: 14px;
+
+                &::before {
+                    top: 0.5px;
+                }
+            }
+        }
+        .clients-list {
+            max-width: 100%;
+            margin-top: 20px;
+
+            .box {
+                line-height: 75px;
+                height: 80px;
+                width: 80px;
+
+                a {
+                    img {
+                        width: 35px;
+                    }
+                }
+            }
+        }
+    }
+
+    .awards-list {
+        margin-top: 60px;
+        padding: {
+            left: 0;
+            right: 0;
+        };
+        h4 {
+            margin-bottom: 10px;
+            padding: 5px 20px;
+            font-size: 13px;
+        }
+        .awards-box {
+            margin-top: 30px;
+        }
+    }
+
+    .single-feedback-box {
+        padding: 40px 20px;
+
+        .client-info {
+            margin-top: 20px;
+
+            h3 {
+                font-size: 16px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+        &::before {
+            right: 20px;
+            bottom: 30px;
+        }
+    }
+
+    .single-pricing-box {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .10);
+        padding: 20px;
+
+        .pricing-header {
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        .price {
+            margin-top: 20px;
+
+            h4 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        .link-btn {
+            margin-top: 20px;
+            padding: 12px 30px;
+            font-size: 14px;
+        }
+        .features-list {
+            margin-top: 30px;
+
+            h5 {
+                font-size: 14px;
+            }
+            ul {
+                li {
+                    font-size: 14px;
+                }
+            }
+        }
+        .ribbon {
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .faq-accordion {
+        .accordion-item {
+            .accordion-button {
+                font-size: 15px;
+                padding: {
+                    top: 10px;
+                    right: 40px;
+                    bottom: 10px;
+                };
+                &::before {
+                    width: 30px;
+                    height: 30px;
+                    font-size: 15px;
+                    line-height: 30px;
+                }
+            }
+            .accordion-body {
+                padding: 15px;
+            }
+        }
+    }
+
+    .plans-compare-table {
+        .table > {
+            thead {
+                tr {
+                    th {
+                        padding: 10px 20px;
+                        font-size: 18px;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        padding: 10px 20px;
+                        font-size: 15px;
+
+                        i {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+            tfoot {
+                tr {
+                    td {
+                        white-space: nowrap;
+                        padding: 10px 20px;
+                        font-size: 15px;
+
+                        .link-btn {
+                            padding: 10px 20px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .services-details-area {
+        padding-top: 60px;
+    }
+    .services-details-content {
+        .box {
+            line-height: 90px;
+            height: 90px;
+            width: 90px;
+        }
+        .sub-title {
+            padding: 4px 20px;
+            font-size: 13px;
+        }
+        h1 {
+            font-size: 25px;
+        }
+        .contact-form {
+            max-width: 100%;
+            padding: 20px 15px;
+        }
+    }
+
+    .single-contact-info-box {
+        padding: 20px;
+
+        .icon {
+            width: 75px;
+            height: 75px;
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 18px;
+        }
+    }
+    .contact-form {
+        padding: 30px 15px;
+
+        .form-group {
+            padding-top: 10px;
+            margin-bottom: 25px;
+
+            label {
+                font-size: 13px;
+            }
+        }
+        .form-check {
+            margin-top: 0;
+        }
+        .default-btn {
+            margin-top: 20px;
+        }
+    }
+
+    .pagination-area {
+        margin-top: 0;
+        padding-top: 25px;
+
+        .page-numbers {
+            width: 40px;
+            height: 40px;
+            font-size: 14px;
+            line-height: 38px;
+        }
+    }
+
+    .blog-details-area {
+        padding-top: 60px;
+    }
+    .blog-details-header {
+        text-align: center;
+
+        .content {
+            .category {
+                padding: 4px 20px;
+                font-size: 13px;
+            }
+            h1 {
+                font-size: 25px;
+                margin-bottom: 12px;
+            }
+            p {
+                padding-right: 0;
+            }
+            .post-author-meta {
+                margin-top: 20px;
+
+                .d-flex {
+                    justify-content: center;
+                }
+                .title {
+                    margin-left: 15px;
+                    text-align: start;
+
+                    .name {
+                        font-size: 15px;
+                    }
+                    .date {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .image {
+            margin-top: 30px;
+        }
+    }
+    .blog-details-desc {
+        padding-top: 45px;
+        
+        .article-content {
+            max-width: 100%;
+            padding: 20px 15px;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .10);
+
+            .social-links {
+                display: none;
+            }
+            p {
+                margin-bottom: 15px;
+                font-size: 14px;
+            }
+            h3 {
+                line-height: 1.4;
+                font-size: 18px;
+                margin: {
+                    top: 30px;
+                    bottom: 12px;
+                };
+            }
+            ul {
+                margin-bottom: 20px;
+                font-size: 14px;
+            }
+            .wp-block-gallery {
+                &.columns-3 {
+                    margin: {
+                        bottom: 20px;
+                        top: 20px;
+                    };
+                }
+            }
+            .article-tags {
+                margin-top: 20px;
+
+                a {
+                    padding: 4px 15px;
+                    margin-right: 5px;
+                    font-size: 12px;
+                }
+            }
+        }
+        .comment-respond {
+            margin-top: 30px;
+            padding-top: 20px;
+
+            .comment-form {
+                .form-group {
+                    padding-top: 10px;
+                    margin-bottom: 25px;
+
+                    label {
+                        font-size: 13px;
+                    }
+                }
+                .form-check {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    blockquote, .blockquote {
+        padding: 20px !important;
+        margin: {
+            top: 20px;
+            bottom: 20px;
+        };
+        p {
+            font-size: 15px !important;
+        }
+    }
+
+    .case-studies-details-header {
+        .col-lg-6 {
+            &:nth-child(1) {
+                order: 2;
+            }
+            &:nth-child(2) {
+                order: 1;
+            }
+        }
+        .content {
+            padding-left: 0;
+            text-align: center;
+
+            img {
+                margin-bottom: 20px;
+            }
+            h1 {
+                margin-bottom: 12px;
+                font-size: 24px;
+            }
+            p {
+                font-size: 14px;
+            }
+            .meta {
+                background-color: transparent;
+                box-shadow: unset;
+                margin-top: -15px;
+                padding: {
+                    left: 0;
+                    right: 0;
+                };
+                li {
+                    text-align: start;
+                    border-right: none;
+                    padding: {
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 36px;
+                    };
+                    margin: {
+                        right: 20px;
+                        top: 25px;
+                    };
+                    i {
+                        top: 1px;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+        .image {
+            padding-right: 0;
+            margin-top: 35px;
+        }
+    }
+    .case-studies-details-desc {
+        .article-content {
+            padding: 25px 20px;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .10);
+
+            .mb-40 {
+                margin-bottom: 25px;
+            }
+            h2 {
+                letter-spacing: 1px;
+                font-size: 20px;
+                margin: {
+                    right: 0;
+                    bottom: 15px;
+                };
+                span {
+                    padding-right: 0;
+                }
+                &::before {
+                    display: none;
+                }
+            }
+            .wp-block-gallery {
+                &.columns-3 {
+                    margin: {
+                        top: 25px;
+                        bottom: 25px;
+                    };
+                }
+            }
+            h3 {
+                font-size: 18px;
+                line-height: 1.4;
+                margin-bottom: 12px;
+            }
+            .article-tags {
+                margin-bottom: -10px;
+
+                a {
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .footer-area {
+        padding-top: 60px;
+    }
+    .single-footer-widget {
+        .newsletter-form {
+            margin-top: 20px;
+            padding-right: 0;
+
+            form {
+                .input-newsletter {
+                    font-size: 14px;
+                    height: 48px;
+                }
+                button {
+                    height: auto;
+                    font-size: 14px;
+                    margin-top: 15px;
+                    position: relative;
+                    padding: 11px 42px 11px 20px;
+                }
+            }
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        &.pl-5 {
+            padding-left: 0;
+        }
+    }
+    .copyright-area {
+        margin-top: 30px;
+        text-align: center;
+
+        ul {
+            text-align: center;
+            margin-top: 15px;
+        }
+    }
+    .go-top {
+        width: 35px;
+        height: 35px;
+        font-size: 25px;
+    }
+
+    /*new-css*/
+    .banner-area {
+        padding-top: 60px;
+    }
+    .banner-content {
+        max-width: 100%;
+
+        .sub-title {
+            font-size: 13px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+        img {
+            margin-top: 25px;
+        }
+    }
+    .shape9 {
+        display: none;
+    }
+    .home-area {
+        padding-top: 60px;
+
+        &::before {
+            display: none;
+        }
+    }
+    .home-content {
+        top: 0;
+        text-align: center;
+
+        .sub-title {
+            font-size: 13px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .home-image {
+        margin-top: 30px;
+    }
+
+    .single-services-item {
+        padding: 20px 15px;
+        text-align: center;
+
+        .d-flex {
+            display: block !important;
+        }
+        img {
+            width: 50px;
+        }
+        h3 {
+            font-size: 18px;
+            margin: {
+                left: 0;
+                top: 18px;
+            };
+        }
+        p {
+            margin-top: 12px;
+        }
+        .features-list {
+            li {
+                span {
+                    text-align: start;
+                    display: inline-block;
+                }
+            }
+        }
+        .default-btn {
+            margin-top: 25px;
+        }
+        &.with-boxshadow {
+            box-shadow: unset !important;
+            border: 1px solid #eeeeee;
+
+            .default-btn {
+                margin-top: 0;
+            }
+        }
+    }
+    .services-slides-two {
+        margin: {
+            top: 0;
+            left: 0;
+            right: 0;
+        };
+        padding: {
+            top: 0;
+            left: 0;
+            right: 0;
+        };
+    }
+
+    .about-img {
+        padding-right: 0;
+    }
+
+    .single-feedback-item {
+        padding: 30px 20px;
+
+        .client-info {
+            margin-top: 20px;
+
+            h3 {
+                font-size: 16px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+        &::before {
+            right: 20px;
+            bottom: 30px;
+        }
+    }
+
+    .team-section-title {
+        padding-left: 0;
+        margin-top: 30px;
+        text-align: center;
+
+        .sub-title {
+            margin-bottom: 12px;
+            padding: 3px 15px;
+            font-size: 12px;
+        }
+        h2 {
+            font-size: 25px;
+
+            br {
+                display: none !important;
+            }
+        }
+        .default-btn {
+            margin-top: 3px;
+        }
+    }
+    .team-member-list {
+        padding-right: 0;
+    }
+    .single-team-member {
+        .content {
+            border-radius: 0 15px 0 0;
+            padding: 10px 15px;
+
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .single-funfacts-box {
+        padding: 0;
+        margin-top: 0;
+        box-shadow: unset;
+        text-align: center;
+        background-color: transparent;
+
+        .icon {
+            position: relative;
+            font-size: 35px;
+            height: 75px;
+            width: 75px;
+            bottom: 0;
+            left: 0;
+            margin: {
+                left: auto;
+                right: auto;
+                bottom: 20px;
+            };
+        }
+    }
+
+    .quote-area {
+        padding: {
+            top: 60px;
+            bottom: 60px;
+        };
+        &::before {
+            display: none;
+        }
+    }
+    .quote-content {
+        .sub-title {
+            margin-bottom: 12px;
+            padding: 3px 15px;
+            font-size: 12px;
+        }
+        h2 {
+            font-size: 25px;
+
+            br {
+                display: none !important;
+            }
+        }
+        form {
+            max-width: 100%;
+            margin-top: 20px;
+
+            .pr-0 {
+                padding-right: calc(var(--bs-gutter-x)/ 2);
+            }
+            .pl-0 {
+                padding-left: calc(var(--bs-gutter-x)/ 2);
+            }
+            .form-group {
+                margin-bottom: 15px;
+
+                .form-control {
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+            button {
+                height: auto;
+                font-size: 14px;
+                padding: {
+                    top: 11px;
+                    left: 32px;
+                    right: 52px;
+                    bottom: 10px;
+                };
+            }
+        }
+    }
+    .shape10, .shape11, .shape12 {
+        display: none;
+    }
+
+    .subscribe-inner {
+        padding: 60px 15px;
+        border-radius: 10px;
+
+        .sub-title {
+            margin-bottom: 12px;
+            padding: 3px 15px;
+            font-size: 12px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        p {
+            max-width: 100%;
+        }
+        .newsletter-form {
+            max-width: 100%;
+            margin-top: 20px;
+            padding-right: 0;
+
+            .input-newsletter {
+                height: 45px;
+                font-size: 14px;
+            }
+            button {
+                position: relative;
+                height: auto;
+                font-size: 14px;
+                margin-top: 15px;
+                padding: {
+                    top: 12px;
+                    left: 25px;
+                    right: 42px;
+                    bottom: 10px;
+                };
+                i {
+                    font-size: 22px;
+                    right: 20px;
+                }
+            }
+        }
+    }
+
+
+    /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+
+    .top-header-black-info {
+        text-align: center;
+
+        li {
+            margin-bottom: 5px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .top-header-black-social-links {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navbar-area-with-position-relative {
+        padding: {
+            top: 28px;
+            bottom: 28px;
+        };
+        &.with-black-color {
+            &.is-sticky {
+                background-color: var(--whiteColor) !important;
+    
+                .navbar {
+                    background-color: var(--whiteColor) !important;
+                }
+            }
+        }
+    }
+
+    .cybersecurity-banner-area {
+        padding-top: 50px;
+        border-bottom: 1px solid #eee;
+
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .cybersecurity-banner-content {
+        position: relative;
+        top: 0;
+
+        .sub-title {
+            font-size: 15px;
+        }
+        h1 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .cybersecurity-banner-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .single-features-card {
+        padding: 20px;
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+    }
+
+    .what-we-work-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .what-we-work-content {
+        padding-left: 0;
+
+        .sub-title {
+            font-size: 15px;
+        } 
+        h2 {
+            font-size: 25px;
+        }
+        .we-work-inner-box {
+            padding: 20px;
+
+            .image {
+                position: relative;
+                left: 0;
+                top: 0;
+                margin-bottom: 18px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            &.with-some-left {
+                margin-left: 0;
+            }
+        }
+    }
+    .what-we-work-shape {
+        display: none;
+    }
+
+    .single-funfact-card {
+        h3 {
+            font-size: 30px;
+
+            .small-text {
+                font-size: 30px;
+                top: 4px;
+            }
+            .small-icon {
+                font-size: 30px;
+                top: 0;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .cyber-security-services-card {
+        padding: 20px;
+
+        .services-image {
+            margin-bottom: 25px;
+        }
+        .services-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .cyber-security-services-shape {
+        display: none;
+    }
+
+    .video-view-content {
+        .video-btn {
+            width: 65px;
+            height: 65px;
+            line-height: 65px;
+            font-size: 45px;
+        }
+    }
+
+    .why-choose-us-content {
+        padding-right: 0;
+
+        .sub-title {
+            font-size: 15px;
+        } 
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .why-choose-us-image {
+        margin-top: 30px;
+    }
+    .why-choose-us-shape {
+        display: none;
+    }
+
+    .industry-partner-inner-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .single-pricing-card {
+        padding: 20px;
+
+        .pricing-header {
+            h3 {
+                font-size: 20px;
+            }
+        }
+        .price {
+            h4 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .get-in-touch-inner-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .team-member-card {
+        .team-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .team-member-shape {
+        display: none;
+    }
+
+    .cyber-safety-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .cyber-safety-content {
+        padding-left: 0;
+
+        .sub-title {
+            font-size: 15px;
+        } 
+        h2 {
+            font-size: 25px;
+        }
+        p {
+            margin-bottom: 0;
+        }
+        .safety-list {
+            margin-top: 20px;
+        }
+    }
+
+    .blog-style-card {
+        .blog-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .blog-style-shape {
+        display: none;
+    }
+
+    .footer-style-area {
+        .single-footer-widget {
+            .info {
+                h4 {
+                    font-size: 17.5px;
+                }
+            }
+            .footer-contact-info {
+                li {
+                    i {
+                        top: 1px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .value-trade-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    
+    .cryptocurrency-banner-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .cryptocurrency-banner-content {
+        position: relative;
+        top: 0;
+
+        h1 {
+            margin-bottom: 18px;
+            font-size: 30px;
+        }
+        .banner-btn-list {
+            margin-top: 20px;
+
+            li {
+                margin-right: 10px;
+
+                .white-paper-btn {
+                    padding: 7.8px 30px;
+                }
+            }
+        }
+        .banner-community {
+            span {
+                font-size: 15px;
+            } 
+        }       
+    }
+    .cryptocurrency-banner-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .cryptocurrency-about-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .cryptocurrency-about-content {
+        padding-left: 0;
+
+        .sub-title {
+            font-size: 15px;
+        } 
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .pre-token-sale-ends-content {
+        padding: 30px 20px;
+
+        h3 {
+            font-size: 22px;
+            margin-bottom: 18px;
+        }
+        #timer {
+            padding: 12px;
+    
+            div {
+                font-size: 20px;
+                margin-right: 15px;
+                
+                span {
+                    font-size: 14.5px;
+                }
+            }
+        }
+        .pre-token-sale-ends-btn {
+            li {
+                margin-bottom: 5px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .pre-token-sale-ends-shape {
+            display: none;
+        }
+    }
+    .pre-token-sale-ends-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .platforms-item {
+        .arrow-image {
+            display: none;
+        }
+        h3 {
+            font-size: 18px;
+        }
+    }
+
+    .cryptocurrency-choose-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .cryptocurrency-choose-content {
+        padding-left: 0;
+
+        .sub-title {
+            font-size: 15px;
+        } 
+        h2 {
+            font-size: 25px;
+        }
+        .choose-inner-box {
+            padding: 20px;
+
+            .image {
+                position: relative;
+                left: 0;
+                top: 0;
+                margin-bottom: 18px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            &.with-some-left {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .token-distribution-card {
+        .distribution-list {
+            padding: 20px;
+
+            li {
+                font-size: 16.5px;
+            }
+        }
+        .token-distribution-details {
+            margin-left: 0;
+
+            .header {
+
+                h3 {
+                    font-size: 20px;
+                }
+            }
+            .info-list {
+                padding: 15px 20px 20px;
+
+                li {
+                    font-size: 16.5px;
+                }
+            }
+        }
+    }
+
+    .invest-content {
+        h2 {
+            font-size: 25px;
+        }
+        .invest-inner-box {
+            padding: 20px;
+
+            .image {
+                position: relative;
+                left: 0;
+                top: 0;
+                margin-bottom: 18px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            &.with-some-left {
+                margin-left: 0;
+            }
+        }
+    }
+    .invest-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .roadmap-style-list-tab {
+        #roadmap-style-item {
+            .roadmap-style-card {
+                .sub-title {
+                    padding: 5px;
+                    font-size: 16.5px;
+                }
+                .content {
+                    h3 {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .download-app-inner-box {
+        padding: 20px;
+
+        .download-app-content {
+            .sub-title {
+                font-size: 15px;
+            } 
+            h3 {
+                font-size: 25px;
+            }
+            .app-list {
+                li {
+                    margin-right: 10px;
+
+                    img {
+                        max-width: 115px;
+                    }
+                }
+            }
+        }
+        .download-app-image {
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+
+    .industry-partner-inner-box-wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-us-inner-box {
+        padding: 35px 20px;
+
+        .contact-form-wrap {
+            h2 {
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+        }
+        .get-in-touch-information {
+            padding: 20px;
+            margin-top: 30px;
+
+            h4 {
+                font-size: 22px;
+                margin-bottom: 18px;
+            }
+            .get-in-touch-shape {
+                display: none;
+            }
+        }        
+    }
+
+    .ico-landing-banner-area {
+        padding: {
+            top: 80px;
+            bottom: 50px;
+        };
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .ico-landing-banner-content {
+        h1 {
+            font-size: 30px;
+        }
+        .banner-pre-token-sale-ends {
+            margin-top: 30px;
+
+            h3 {
+                font-size: 22px;
+            }
+            #timer {
+                padding: 12px;
+        
+                div {
+                    font-size: 20px;
+                    margin-right: 15px;
+                    
+                    span {
+                        font-size: 14.5px;
+                    }
+                }
+            }
+            .pre-token-sale-ends-btn {
+                li {
+                    margin-bottom: 5px;
+    
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    .ico-landing-banner-image {
+        margin-top: 30px;
+    }
+
+    .ico-about-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        .sub-title {
+            font-size: 15px;
+        } 
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .ico-choose-content {
+        padding-right: 0;
+
+        .sub-title {
+            font-size: 15px;
+        } 
+        h2 {
+            font-size: 25px;
+        }
+        .choose-inner-box {
+            padding: 20px;
+
+            .image {
+                position: relative;
+                left: 0;
+                top: 0;
+                margin-bottom: 18px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+    .ico-choose-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .token-distribution-card {
+        .distribution-list {
+            &.without-wrap {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .roadmap-style-list-tab {
+        #roadmap-style-item {
+            .roadmap-style-card {
+                &.with-black-color {
+                    .title {
+                        font-size: 18px;
+                        margin-bottom: 18px;
+                    }
+                    .content {
+                        padding: 20px;
+
+                        h3 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .ico-faq-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .ico-faq-content {
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+
+    // Navbar Area
+    .navbar-area {
+        padding-top: 0;
+        padding-bottom: 0;
+        .navbar {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            .navbar-nav {
+                margin-top: 5px;
+                overflow-y: auto;
+                max-height: 70vh;
+                padding-right: 15px;
+
+                &::-webkit-scrollbar {
+                    width: 10px;
+                } 
+                &::-webkit-scrollbar-track {
+                    background: #eee; 
+                } 
+                &::-webkit-scrollbar-thumb {
+                    background: #a19c9c;
+                } 
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #a19c9c;
+                }
+
+                .nav-item {
+                    margin: 0;
+                    a {
+                        padding-top: 8px;
+                        padding-bottom: 8px;
+                        &::before {
+                            display: none;
+                        }
+                    }
+
+                    .dropdown-menu {
+                        opacity: 1;
+                        width: 100%;
+                        display: block;
+                        margin-top: 0;
+                        margin-bottom: 10px;
+                        position: initial;
+                        visibility: visible;
+                        border: 1px solid #eee;
+
+                        li {
+                            a {
+                                padding: 8px 15px;
+                                font-size: 15px;
+                            }
+                            .dropdown-menu {
+                                opacity: 1;
+                                width: 90%;
+                                display: block;
+                                margin-top: 0;
+                                margin-bottom: 10px;
+                                position: initial;
+                                visibility: visible;
+                                margin-left: 15px;
+                                border: 1px solid #eee;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .others-option {
+                position: absolute;
+                right: 60px;
+                top: 8px;
+
+                .default-btn {
+                    padding-top: 6px;
+                    padding-left: 12px;
+                    padding-right: 12px;
+                    padding-bottom: 6px;
+                    font-size: 12px;
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar-area-with-position-relative {
+        .navbar {
+            .container-fluid {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .others-option {
+                top: 17px;
+            }
+        }
+    }
+
+    .video-style-area {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .section-title.with-max-width {
+        margin: 0 auto 30px;
+    }
+
+    .navbar-area-with-position-relative.with-black-color {
+        .navbar {
+            .navbar-toggler {
+                .icon-bar {
+                    background: #fff;
+                }
+            }
+        }
+    }
+    .navbar-area-with-position-relative.with-black-color.is-sticky .navbar {
+        background-color: #081327 !important;
+    }
+
+    .service-sidebar {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .case-studies-card-box {
+        .single-case-studies-box {
+            border: 1px solid #eee !important;
+            padding: 20px;
+        }
+    }
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+
+    .about-content {
+        .features-list {
+            li {
+                width: 25%;
+            }
+        }
+    }
+
+    .page-title-content {
+        .clients-list {
+            padding: {
+                left: 30px;
+                right: 30px;
+            };
+        }
+    }
+
+    .blog-details-desc {
+        .article-content {
+            padding: 25px;
+        }
+    }
+
+    .copyright-area {
+        text-align: start;
+
+        ul {
+            text-align: end;
+            margin-top: 0;
+        }
+    }
+
+    /*new-css*/
+    .subscribe-inner {
+        padding: 60px 30px;
+    }
+
+    /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+
+    .top-header-black-info {
+        text-align: start;
+
+        li {
+            margin-bottom: 0;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .top-header-black-social-links {
+        text-align: end;
+        margin-top: 0;
+    }
+
+    .pre-token-sale-ends-content {
+        #timer {
+            div {
+                font-size: 38px;
+                margin-right: 45px;
+            }
+        }
+    }
+
+    .contact-us-inner-box {
+        .get-in-touch-information {
+            .information-list {
+                li {
+                    span {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .token-distribution-card {
+        .distribution-list {
+            &.without-wrap {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .ico-landing-banner-content {
+        .banner-pre-token-sale-ends {
+            #timer {
+                div {
+                    font-size: 38px;
+                    margin-right: 45px;
+                }
+            }
+        }
+    }
+
+    /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    body {
+        font-size: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .ptb-100 {
+        padding: {
+            top: 80px;
+            bottom: 80px;
+        };
+    }
+    .pt-100 {
+        padding-top: 80px;
+    }
+    .pb-100 {
+        padding-bottom: 80px;
+    }
+    .ptb-70 {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+        };
+    }
+    .pt-70 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 50px;
+    }
+    .default-btn {
+        font-size: 15px;
+        padding: 12px 35px 12px 60px;
+
+        &::before {
+            width: 45px;
+        }
+        span {
+            width: 46px;
+            height: 46px;
+            line-height: 46px;
+        }
+    }
+    .section-title {
+        .sub-title {
+            padding: 4px 20px;
+            font-size: 13px;
+        }
+        h2 {
+            font-size: 32px;
+
+            br {
+                display: none !important;
+            }
+        }
+        p {
+            max-width: 540px;
+            margin: {
+                left: auto;
+                right: auto;
+            };
+        }
+        &.style-two {
+            text-align: center;
+
+            p {
+                margin-top: 12px;
+            }
+        }
+    }
+    .form-control {
+        font-size: 15px;
+    }
+    
+    .top-header-area {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eeeeee;
+    }
+    .top-header-start {
+        .logo {
+            display: none !important;
+        }
+        .search-box {
+            width: 100%;
+            margin-left: 0;
+
+            .input-search {
+                border-color: #f9f9f9;
+                background-color: #f9f9f9;
+            }
+        }
+    }
+    
+    .main-banner-area {
+        padding-top: 80px;
+    }
+    .main-banner-content {
+        text-align: center;
+
+        .sub-title {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .main-banner-image {
+        padding-right: 0;
+        margin-top: 30px;
+
+        &::before {
+            width: 695px;
+            height: 695px;
+        }
+    }
+    .shape1, .shape2, .shape3, .shape4, .shape5, .shape6, .shape7, .shape8 {
+        display: none;
+    }
+
+    .single-features-box {
+        padding: 30px 20px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .single-team-box {
+        .content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .about-image {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .about-content {
+        padding-left: 0;
+        text-align: center;
+
+        .sub-title {
+            padding: 4px 20px;
+            font-size: 13px;
+        }
+        h2 {
+            font-size: 32px;
+        }
+        p {
+            max-width: 540px;
+            margin: {
+                left: auto;
+                right: auto;
+            };
+        }
+        .features-list {
+            li {
+                width: 25%;
+
+                .d-flex {
+                    display: block !important;
+
+                    .icon {
+                        border-radius: 50%;
+                        margin: {
+                            left: auto;
+                            right: auto;
+                        };
+                    }
+                    span {
+                        font-size: 20px;
+                        margin: {
+                            left: 0;
+                            top: 15px;
+                        };
+                    }
+                }
+            }
+        }
+    }
+
+    .single-services-box {
+        padding: 30px 20px;
+
+        img {
+            width: 60px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        .default-btn {
+            margin-top: 25px;
+        }
+        &::after {
+            margin: 5px;
+        }
+    }
+
+    .process-inner {
+        padding: {
+            left: 25px;
+            right: 25px;
+        };
+    }
+    .single-process-box {
+        text-align: center;
+        
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .single-case-studies-box {
+        .content {
+            padding-right: 0;
+            text-align: center;
+            max-width: 100%;
+
+            h3 {
+                font-size: 22px;
+            }
+            p {
+                max-width: 600px;
+                margin: {
+                    left: auto;
+                    right: auto;
+                };
+            }
+            .features-list {
+                padding: {
+                    left: 15px;
+                    right: 15px;
+                };
+                li {
+                    font-size: 16px;
+                    margin: {
+                        left: 15px;
+                        right: 15px;
+                    };
+                    span {
+                        letter-spacing: 1px;
+                        font-size: 13px;
+                    }
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+            }
+            .default-btn {
+                margin-top: 25px;
+            }
+        }
+        .image {
+            margin-top: 30px;
+            text-align: center;
+        }
+    }
+
+    .single-blog-post {
+        .image {
+            .date {
+                right: -39%;
+            }
+        }
+        .content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .get-started-area {
+        .col-lg-6 {
+            &:first-child {
+                order: 2;
+            }
+            &:last-child {
+                order: 1;
+            }
+        }
+    }
+    .get-started-content {
+        padding-top: 0;
+        text-align: center;
+
+        .sub-title {
+            padding: 4px 20px;
+            font-size: 13px;
+        }
+        h2 {
+            font-size: 32px;
+
+            br {
+                display: none !important;
+            }
+        }
+        p {
+            max-width: 540px;
+            margin: {
+                left: auto;
+                right: auto;
+            };
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .get-started-image {
+        margin-top: 30px;
+
+        &::before {
+            margin: 0 auto;
+        }
+    }
+
+    .page-title-area {
+        padding: {
+            top: 70px;
+            bottom: 70px;
+        };
+        .shape1, .shape3 {
+            display: block;
+        }
+    }
+    .page-title-content {
+        h1 {
+            font-size: 32px;
+        }
+        .clients-list {
+            .box {
+                line-height: 85px;
+                height: 95px;
+                width: 95px;
+            }
+        }
+    }
+
+    .awards-list {
+        margin-top: 80px;
+        padding: {
+            left: 50px;
+            right: 50px;
+        };
+        h4 {
+            margin-bottom: 20px;
+        }
+        .awards-box {
+            margin-top: 30px;
+        }
+    }
+
+    .single-feedback-box {
+        padding: 40px 20px;
+
+        .client-info {
+            h3 {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .services-details-area {
+        padding-top: 80px;
+    }
+    .services-details-content {
+        h1 {
+            font-size: 32px;
+        }
+        .contact-form {
+            max-width: 100%;
+            padding: 30px;
+        }
+    }
+
+    .case-studies-area {
+        &.extra-top-padding {
+            padding-top: 80px;
+        }
+    }
+    .case-studies-list {
+        padding: {
+            left: 0;
+            right: 0;
+        };
+        .single-case-studies-item {
+            margin: {
+                left: 0;
+                right: 0;
+                bottom: 30px;
+            };
+        }
+        .col-lg-5 {
+            &:nth-child(2) {
+                margin-top: 80px;
+            }
+        }
+    }
+    .single-case-studies-item {
+        text-align: center;
+        padding: 30px 20px 40px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+    .case-studies-box {
+        padding: 20px;
+
+        img {
+            margin-bottom: 20px;
+        }
+        h3 {
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+        .default-btn {
+            left: 0;
+            bottom: 0;
+            opacity: 1;
+            margin-top: 15px;
+            transform: unset;
+            position: relative;
+            visibility: visible;
+        }
+        &:hover {
+            img {
+                transform: scale(1) translateY(0);
+            }
+            h3 {
+                transform: translateY(0);
+            }
+            p {
+                transform: translateY(0);
+            }
+            .default-btn {
+                bottom: 0;
+            }
+        }
+    }
+
+    .single-contact-info-box {
+        padding: 25px;
+
+        h3 {
+            font-size: 20px;
+        }
+        .icon {
+            width: 85px;
+            height: 85px;
+        }
+    }
+
+    .contact-form {
+        padding: 40px;
+    }
+
+    .blog-details-area {
+        padding-top: 80px;
+    }
+    .blog-details-header {
+        text-align: center;
+
+        .content {
+            h1 {
+                font-size: 32px;
+            }
+            p {
+                padding-right: 0;
+                max-width: 540px;
+                margin: {
+                    left: auto;
+                    right: auto;
+                };
+            }
+            .post-author-meta {
+                margin-top: 20px;
+
+                .d-flex {
+                    justify-content: center;
+                }
+            }
+        }
+        .image {
+            margin-top: 30px;
+        }
+    }
+    .blog-details-desc {
+        .article-content {
+            max-width: 630px;
+            padding: 30px;
+            margin: {
+                left: 0;
+                right: 0;
+            };
+            h3 {
+                font-size: 21px;
+                margin: {
+                    top: 30px;
+                    bottom: 15px;
+                };
+            }
+            p {
+                font-size: 15px;
+            }
+            ul {
+                font-size: 15px;
+            }
+            .social-links {
+                right: -65px;
+            }
+        }
+    }
+    blockquote, .blockquote {
+        padding: 40px !important;
+
+        p {
+            font-size: 18px !important;
+        }
+    }
+
+    .single-pricing-box {
+        padding: 30px;
+
+        .pricing-header {
+            h3 {
+                font-size: 20px;
+            }
+        }
+        .price {
+            h4 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    .faq-accordion {
+        .accordion-item {
+            .accordion-button {
+                font-size: 18px;
+                padding: {
+                    top: 17px;
+                    bottom: 17px;
+                };
+                &::before {
+                    width: 35px;
+                    height: 35px;
+                    font-size: 18px;
+                    line-height: 35px;
+                }
+            }
+        }
+    }
+
+    .plans-compare-table {
+        .table > {
+            thead {
+                tr {
+                    th {
+                        font-size: 20px;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        font-size: 16px;
+                    }
+                }
+            }
+            tfoot {
+                tr {
+                    td {
+                        font-size: 16px;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+ 
+    .case-studies-details-header {
+        .col-lg-6 {
+            &:nth-child(1) {
+                order: 2;
+            }
+            &:nth-child(2) {
+                order: 1;
+            }
+        }
+        .content {
+            padding-left: 0;
+            text-align: center;
+
+            h1 {
+                font-size: 32px;
+            }
+            p {
+                font-size: 15px;
+                max-width: 540px;
+                margin: {
+                    left: auto;
+                    right: auto;
+                };
+            }
+            .meta {
+                li {
+                    text-align: start;
+                }
+            }
+        }
+        .image {
+            padding-right: 0;
+            margin-top: 35px;
+        }
+    }
+    .case-studies-details-desc {
+        .article-content {
+            padding: 25px;
+
+            .mb-40 {
+                margin-bottom: 30px;
+            }
+            h2 {
+                font-size: 24px;
+                margin: {
+                    right: 0;
+                    bottom: 25px;
+                };
+            }
+            h3 {
+                font-size: 20px;
+                margin-bottom: 13px;
+            }
+        }
+    }
+
+    .footer-area {
+        padding-top: 80px;
+    }
+    .single-footer-widget {
+        &.pl-5 {
+            padding-left: 0;
+        }
+        .newsletter-form {
+            padding-right: 0;
+
+            form {
+                button {
+                    padding: 0 40px 0 18px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .copyright-area {
+        margin-top: 50px;
+    }
+
+    /*new-css*/
+    .banner-area {
+        padding-top: 80px;
+    }
+    .banner-content {
+        max-width: 100%;
+
+        .sub-title {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+        img {
+            margin-top: 30px;
+        }
+    }
+    .shape9 {
+        display: none;
+    }
+    .home-area {
+        padding-top: 80px;
+
+        &::before {
+            height: 50px;
+        }
+    }
+    .home-content {
+        top: 0;
+        text-align: center;
+
+        .sub-title {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .home-image {
+        margin-top: 30px;
+    }
+
+    .single-services-item {
+        padding: 30px 20px;
+
+        img {
+            width: 60px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        .default-btn {
+            margin-top: 25px;
+        }
+        &.with-boxshadow {
+            box-shadow: unset !important;
+            border: 1px solid #eeeeee;
+
+            .default-btn {
+                margin-top: 0;
+            }
+        }
+    }
+    .services-slides-two {
+        margin: {
+            top: 0;
+            left: 0;
+            right: 0;
+        };
+        padding: {
+            top: 0;
+            left: 0;
+            right: 0;
+        };
+    }
+
+    .about-img {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .single-feedback-item {
+        padding: 30px 20px;
+
+        .client-info {
+            h3 {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .team-area {
+        &.bg-gradient-image {
+            border-bottom: 1px solid #eeeeee;
+        }
+    }
+    .team-member-list {
+        padding-right: 0;
+    }
+    .single-team-member {
+        .content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .team-section-title {
+        text-align: center;
+        margin-top: 30px;
+        padding-left: 0;
+        
+        .sub-title {
+            padding: 4px 20px;
+            font-size: 13px;
+        }
+        h2 {
+            font-size: 32px;
+
+            br {
+                display: none !important;
+            }
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+
+    .quote-area {
+        padding: {
+            top: 80px;
+            bottom: 80px;
+        };
+        &::before {
+            display: none;
+        }
+    }
+    .quote-content {
+        .sub-title {
+            padding: 4px 20px;
+            font-size: 13px;
+        }
+        h2 {
+            font-size: 32px;
+
+            br {
+                display: none !important;
+            }
+        }
+        p {
+            max-width: 540px;
+            margin: {
+                left: auto;
+                right: auto;
+            };
+        }
+        form {
+            max-width: 100%;
+            margin-top: 25px;
+
+            .form-group {
+                .form-control {
+                    font-size: 14px;
+                    height: 45px;
+                }
+            }
+            button {
+                height: 45px;
+                font-size: 15px;
+                padding: {
+                    left: 30px;
+                    right: 50px;
+                };
+            }
+        }
+    }
+    .shape10, .shape11, .shape12 {
+        display: none;
+    }
+
+    .subscribe-inner {
+        padding: 80px 50px;
+
+        .sub-title {
+            padding: 4px 20px;
+            font-size: 13px;
+        }
+        h2 {
+            font-size: 32px;
+
+            br {
+                display: none !important;
+            }
+        }
+        p {
+            max-width: 540px;
+            margin: {
+                left: auto;
+                right: auto;
+            };
+        }
+        .newsletter-form {
+            padding-right: 195px;
+            max-width: 100%;
+
+            button {
+                font-size: 15px;
+            }
+        }
+    }
+
+
+    /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+
+    .navbar-area-with-position-relative {
+        padding: {
+            top: 28px;
+            bottom: 28px;
+        };
+        .welch-responsive-nav {
+            .others-option {
+                right: 50px;
+                top: -2px;
+            }
+            .mean-container {
+                a {
+                    &.meanmenu-reveal {
+                        padding-top: 2px;
+                    }
+                }
+            }
+        }
+        &.with-black-color {
+            &.is-sticky {
+                background-color: var(--whiteColor) !important;
+    
+                .navbar {
+                    background-color: var(--whiteColor) !important;
+                }
+            }
+        }
+    }
+
+    .cybersecurity-banner-area {
+        padding-top: 50px;
+        border-bottom: 1px solid #eee;
+
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .cybersecurity-banner-content {
+        position: relative;
+        top: 0;
+        
+        h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .cybersecurity-banner-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .single-features-card {
+        padding: 20px;
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+    }
+
+    .what-we-work-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .what-we-work-content {
+        padding-left: 0;
+        
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .what-we-work-shape {
+        display: none;
+    }
+
+    .single-funfact-card {
+        h3 {
+            font-size: 50px;
+
+            .small-text {
+                font-size: 50px;
+            }
+            .small-icon {
+                font-size: 50px;
+                top: 0;
+            }
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .cyber-security-services-card {
+        padding: 20px;
+
+        .services-image {
+            margin-bottom: 25px;
+        }
+        .services-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .cyber-security-services-shape {
+        display: none;
+    }
+
+    .video-view-content {
+        .video-btn {
+            width: 65px;
+            height: 65px;
+            line-height: 65px;
+            font-size: 45px;
+        }
+    }
+
+    .why-choose-us-content {
+        padding-right: 0;
+        
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .why-choose-us-image {
+        margin-top: 30px;
+    }
+    .why-choose-us-shape {
+        display: none;
+    }
+
+    .industry-partner-inner-box {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .get-in-touch-inner-box {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .team-member-shape {
+        display: none;
+    }
+
+    .cyber-safety-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .cyber-safety-content {
+        padding-left: 0;
+        
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .blog-style-card {
+        .blog-content {
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .blog-style-shape {
+        display: none;
+    }
+
+    .footer-style-area {
+        .single-footer-widget {
+            .info {
+                h4 {
+                    font-size: 18.5px;
+                }
+            }
+            .footer-contact-info {
+                li {
+                    i {
+                        top: 1px;
+                    }
+                }
+            }
+        }
+    }
+
+    .value-trade-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    
+    .cryptocurrency-banner-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .cryptocurrency-banner-content {
+        position: relative;
+        top: 0;
+
+        h1 {
+            margin-bottom: 18px;
+            font-size: 55px;
+        }
+        .banner-btn-list {
+            margin-top: 20px;
+
+            li {
+                margin-right: 10px;
+
+                .white-paper-btn {
+                    padding: 7.8px 30px;
+                }
+            }
+        }
+        .banner-community {
+            span {
+                font-size: 15px;
+            } 
+        }       
+    }
+    .cryptocurrency-banner-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .cryptocurrency-about-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .cryptocurrency-about-content {
+        padding-left: 0;
+        
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .pre-token-sale-ends-content {
+        padding: 40px 20px;
+    }
+    .pre-token-sale-ends-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .platforms-item {
+        .arrow-image {
+            display: none;
+        }
+        h3 {
+            font-size: 22px;
+        }
+    }
+
+    .cryptocurrency-choose-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .cryptocurrency-choose-content {
+        padding-left: 0;
+        
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .token-distribution-card {
+        .token-distribution-details {
+            margin-left: 0;
+        }
+    }
+
+    .invest-content {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .invest-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .roadmap-style-list-tab {
+        #roadmap-style-item {
+            .roadmap-style-card {
+                .sub-title {
+                    padding: 5px;
+                    font-size: 16.5px;
+                }
+                .content {
+                    h3 {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+
+    .download-app-inner-box {
+        padding: 50px;
+
+        .download-app-content {
+            h3 {
+                font-size: 30px;
+            }
+        }
+        .download-app-image {
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+
+    .industry-partner-inner-box-wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-us-inner-box {
+        padding: 35px 20px;
+
+        .contact-form-wrap {
+            h2 {
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+        }
+        .get-in-touch-information {
+            padding: 20px;
+            margin-top: 30px;
+
+            h4 {
+                font-size: 22px;
+                margin-bottom: 18px;
+            }
+            .get-in-touch-shape {
+                display: none;
+            }
+        }        
+    }
+
+    .ico-landing-banner-content {
+        h1 {
+            font-size: 50px;
+        }
+    }
+    .ico-landing-banner-image {
+        margin-top: 30px;
+    }
+
+    .ico-about-content {
+        padding-left: 0;
+        margin-top: 30px;
+        
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .ico-choose-content {
+        padding-right: 0;
+        
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .ico-choose-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .roadmap-style-list-tab {
+        #roadmap-style-item {
+            .roadmap-style-card {
+                &.with-black-color {
+                    .title {
+                        font-size: 18px;
+                        margin-bottom: 18px;
+                    }
+                    .content {
+                        padding: 20px;
+
+                        h3 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .ico-faq-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .ico-faq-content {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+
+    // navbar-area
+    .navbar-area {
+        padding: 0;
+        .navbar {
+            .navbar-nav {
+                .nav-item {
+                    margin-left: 8px;
+                    margin-right: 8px;
+                    a {
+                        font-size: 14px;
+                        padding-top: 25px;
+                        padding-bottom: 25px;
+                    }
+                    .dropdown-toggle {
+                        &::before {
+                            top: 29px;
+                        }
+                    }
+
+                    .dropdown-menu {
+                        top: 71px;
+                    }
+                }
+                &.me-auto {
+                    margin-right: 0!important;
+                    margin-left: auto!important;
+                }
+                &.m-auto {
+                    margin-right: 0!important;
+                    margin-left: auto!important;
+                }
+            }
+
+            .others-option {
+                display: none;
+            }
+        }
+    }
+    .service-sidebar {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .case-studies-card-box {
+        .single-case-studies-box {
+            border: 1px solid #eee !important;
+            padding: 30px;
+        }
+    }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .section-title {
+        h2 {
+            font-size: 36px;
+        }
+        p {
+            margin-top: 8px;
+        }
+    }
+
+    .main-banner-content {
+        h1 {
+            font-size: 48px;
+        }
+    }
+    .main-banner-image {
+        &::before {
+            width: 535px;
+            height: 535px;
+        }
+        .shape {
+            width: 120px;
+            left: 16%;
+            top: 17%;
+        }
+    }
+    .shape1 {
+        opacity: .30;
+    }
+    .shape2 {
+        opacity: .50;
+    }
+    .shape3 {
+        opacity: .30;
+    }
+    .shape4 {
+        display: none;
+    }
+
+    .single-features-box {
+        padding: 35px 20px;
+    }
+
+    .about-image {
+        padding-right: 0;
+    }
+    .about-content {
+        padding-left: 0;
+
+        h2 {
+            font-size: 36px;
+        }
+        p {
+            max-width: 100%;
+        }
+        .features-list {
+            li {
+                .icon {
+                    width: 77px;
+                    height: 77px;
+                    line-height: 77px;
+                }
+                span {
+                    margin-left: 15px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .shape6 {
+        bottom: 8%;
+        left: 5%;
+    }
+
+    .process-inner {
+        padding: {
+            left: 40px;
+            right: 40px;
+        };
+    }
+
+    .case-studies-area {
+        overflow: hidden;
+    }
+    .single-case-studies-box {
+        .content {
+            padding-right: 0;
+            max-width: 100%;
+
+            h3 {
+                font-size: 26px;
+            }
+            .features-list {
+                padding: {
+                    left: 20px;
+                    right: 20px;
+                };
+                li {
+                    font-size: 17px;
+
+                    span {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .image {
+            padding-left: 30px;
+
+            &::before {
+                width: 465px;
+                height: 465px;
+            }
+        }
+    }
+
+    .shape8 {
+        display: none;
+    }
+
+    .single-blog-post {
+        .image {
+            .date {
+                right: -48%;
+            }
+        }
+        .content {
+            padding-right: 0;
+        }
+    }
+
+    .get-started-image {
+        &::before {
+            width: 450px;
+            height: 450px;
+        }
+    }
+    .get-started-content {
+        h2 {
+            font-size: 50px;
+        }
+    }
+
+    .page-title-content {
+        h1 {
+            font-size: 36px;
+        }
+    }
+
+    .awards-list {
+        padding: {
+            left: 0;
+            right: 0;
+        };
+    }
+
+    .single-feedback-box {
+        padding: 40px 25px;
+
+        &::before {
+            right: 15px;
+            bottom: 85px;
+        }
+    }
+
+    .faq-accordion {
+        .accordion-item {
+            .accordion-button {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .services-details-content {
+        .contact-form {
+            padding: 30px;
+            max-width: 100%;
+        }
+    }
+
+    .case-studies-list {
+        padding: {
+            left: 0;
+            right: 0;
+        };
+    }
+
+    .case-studies-box {
+        padding: 30px 20px;
+    }
+
+    .plans-compare-table {
+        .table > {
+            tfoot {
+                tr {
+                    td {
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+
+    .single-contact-info-box {
+        padding: 20px 15px;
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .contact-form {
+        padding: 50px;
+    }
+
+    .blog-details-header {
+        .content {
+            h1 {
+                font-size: 35px;
+            }
+            .post-author-meta {
+                margin-top: 20px;
+            }
+        }
+    }
+    .blog-details-desc {
+        .article-content {
+            max-width: 820px;
+            padding: 40px;
+            margin: {
+                left: 0;
+                right: 0;
+            };
+            p {
+                font-size: 16px;
+            }
+            h3 {
+                font-size: 24px;
+            }
+            ul {
+                font-size: 16px;
+            }
+        }
+    }
+    blockquote, .blockquote {
+        p {
+            font-size: 19px !important;
+        }
+    }
+
+    .case-studies-details-header {
+        .image {
+            padding-right: 0;
+        }
+        .content {
+            padding-left: 0;
+
+            h1 {
+                font-size: 36px;
+                margin-bottom: 12px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .meta {
+                margin-top: 20px;
+                padding: {
+                    left: 10px;
+                    right: 10px;
+                };
+                li {
+                    margin-right: 15px;
+                    font-size: 14px;
+                    padding: {
+                        top: 10px;
+                        left: 35px;
+                        right: 10px;
+                        bottom: 10px;
+                    };
+                    i {
+                        font-size: 25px;
+                        top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .case-studies-details-desc {
+        .article-content {
+            padding: 40px;
+            
+            h2 {
+                font-size: 25px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .single-footer-widget {
+        .newsletter-form {
+            padding-right: 0;
+
+            form {
+                button {
+                    padding: 0 20px;
+                    font-size: 15px;
+
+                    i {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    /*new-css*/
+    .header-area {
+        &.header-style-two {
+            .navbar-area {
+                .navbar {
+                    .navbar-nav {
+                        margin-left: auto;
+
+                        .nav-item {
+                            margin: {
+                                left: 10px;
+                                right: 10px;
+                            };
+                        }
+                    }
+                    .others-option {
+                        margin-left: 10px;
+
+                        .default-btn {
+                            padding: {
+                                left: 42px;
+                                right: 15px;
+                            };
+                            span {
+                                left: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .home-area {
+        &::before {
+            height: 50px;
+        }
+    }
+    .home-content {
+        h1 {
+            font-size: 45px;
+        }
+    }
+
+    .about-img {
+        padding-right: 0;
+    }
+    .shape9 {
+        right: 12%;
+        bottom: 48%;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    .single-services-item {
+        &.with-boxshadow {
+            box-shadow: unset;
+            border: 1px solid #eeeeee;
+        }
+    }
+    .services-slides-two {
+        margin: {
+            top: 0;
+            left: 0;
+            right: 0;
+        };
+        padding: {
+            top: 0;
+            left: 0;
+            right: 0;
+        };
+    }
+
+    .single-feedback-item {
+        padding: 30px 25px;
+
+        &::before {
+            right: 15px;
+            bottom: 30px; 
+        }
+    }
+
+    .team-section-title {
+        padding-left: 0;
+    }
+    .single-team-member {
+        .content {
+            background-color: transparent;
+            position: relative;
+            border-radius: 0;
+            margin-top: 12px;
+            padding: 0;
+
+            .d-flex {
+                display: block !important;
+            }
+            span {
+                margin-top: 5px;
+            }
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .quote-area {
+        padding-top: 120px;
+
+        &::before {
+            height: 40px;
+        }
+    }
+    .shape10, .shape11, .shape12 {
+        display: none;
+    }
+
+    /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+
+    .navbar-area-with-position-relative {
+        .navbar {
+            .navbar-brand {
+                padding-top: 0;
+            }
+            .navbar-nav {
+                .nav-item {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .cybersecurity-banner-area {
+        border-bottom: 1px solid #eee;
+        padding: {
+            top: 80px;
+            bottom: 80px;
+        };
+    }
+    .cybersecurity-banner-content {
+        position: relative;
+        top: 0;
+
+        h1 {
+            margin-bottom: 15px;
+            font-size: 55px;
+        }
+    }
+
+    .single-features-card {
+        padding: 20px;
+    }
+
+    .what-we-work-content {
+        padding-left: 0;
+    }
+
+    .single-funfact-card {
+        h3 {
+            font-size: 55px;
+
+            .small-text {
+                font-size: 50px;
+            }
+            .small-icon {
+                font-size: 50px;
+            }
+        }
+    }
+
+    .cyber-security-services-card {
+        .services-content {
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .team-member-card {
+        .team-image {
+            .social-btn {
+                right: 5px;
+                bottom: -12px;
+            }
+        }
+    }
+
+    .cyber-safety-content {
+        padding-left: 0;
+
+        .safety-list {
+            li {
+                padding: 15px 15px 15px 40px;
+            }
+        }
+    }
+
+    .blog-style-card {
+        .blog-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .cryptocurrency-banner-area {
+        padding: {
+            top: 80px;
+            bottom: 80px;
+        };
+    }
+    .cryptocurrency-banner-content {
+        position: relative;
+        top: 0;
+
+        h1 {
+            font-size: 55px;
+        }
+    }
+
+    .pre-token-sale-ends-content {
+        padding: 30px 20px;
+
+        #timer {
+            div {
+                margin-right: 30px;
+            }
+        }
+        .pre-token-sale-ends-shape {
+            display: none;
+        }
+    }
+
+    .cryptocurrency-choose-content {
+        padding-left: 0;
+    }
+
+    .roadmap-style-list-tab {
+        #roadmap-style-item {
+            .roadmap-style-card {
+                .sub-title {
+                    font-size: 16.5px;
+                }
+                .content {
+                    padding-left: 0;
+
+                    h3 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .download-app-inner-box {
+        padding: 50px;
+
+        .app-list {
+            li {
+                img {
+                    max-width: 120px;
+                }
+            }
+        }
+    }
+
+    .contact-us-inner-box {
+        .get-in-touch-information {
+            padding: 30px 30px 120px;
+        }
+    }
+
+    .token-distribution-card {
+        .distribution-list {
+            padding: 25px;
+
+            li {
+                font-size: 16.5px;
+            }
+        }
+        .token-distribution-details {
+            margin-left: 40px;
+
+            .header {
+                h3 {
+                    font-size: 22px;
+                }
+            }
+            .info-list {
+                li {
+                    font-size: 16.5px;
+                }
+            }
+        }
+    }
+
+    .ico-landing-banner-content {
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+    .ico-about-content {
+        padding-left: 0;
+    }
+
+    .platforms-item {
+        &.with-white-color {
+            .arrow-image {
+                right: -85px;
+            }
+        }
+    }
+    
+    /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+
+    .navbar-area-with-position-relative {
+        .navbar {
+            .others-option {
+                .default-btn {
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .why-choose-us-shape {
+        opacity: 20%;
+    }
+    .team-member-shape {
+        opacity: 20%;
+    }
+    .blog-style-shape {
+        opacity: 20%;
+    }
+
+    .team-member-card {
+        .team-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .contact-us-inner-box {
+        padding: 40px;
+    }
+}
+
+/* Min width 1200px to Max width 1355px */
+@media only screen and (min-width : 1200px) and (max-width : 1355px) {
+
+    .main-banner-content {
+        h1 {
+            font-size: 58px;
+        }
+    }
+    .main-banner-image {
+        &::before {
+            width: 640px;
+            height: 640px;
+        }
+        .shape {
+            width: 120px;
+            left: 16%;
+            top: 17%;
+        }
+    }
+    .shape1 {
+        opacity: .30;
+    }
+    .shape2 {
+        opacity: .50;
+    }
+    .shape3 {
+        opacity: .30;
+    }
+    .shape4 {
+        right: 4%;
+        width: 100px;
+    }
+
+    .single-services-box {
+        padding: 30px;
+    }
+
+    .process-inner {
+        padding: {
+            left: 60px;
+            right: 60px;
+        };
+    }
+
+    .single-case-studies-box {
+        .content {
+            .features-list {
+                padding: {
+                    left: 25px;
+                    right: 25px;
+                };
+            }
+        }
+        .image {
+            &::before {
+                width: 480px;
+                height: 480px;
+            }
+        }
+    }
+
+    .case-studies-details-header {
+        .content {
+            padding-left: 0;
+
+            .meta {
+                padding: {
+                    left: 20px;
+                    right: 20px;
+                };
+                li {
+                    margin-right: 20px;
+                    padding: {
+                        left: 40px;
+                        right: 20px;
+                    };
+                    i {
+                        font-size: 27px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*new-css*/
+    .home-area {
+        &::before {
+            height: 70px;
+        }
+    }
+
+    .single-services-item {
+        padding: 30px;
+
+        &.with-boxshadow {
+            border: 1px solid #eeeeee;
+        }
+    }
+    .services-slides-two {
+        padding: {
+            top: 0;
+            left: 0;
+            right: 0;
+        };
+        margin: {
+            top: 0;
+            left: 0;
+            right: 0;
+        };
+    }
+    
+    .single-feedback-item {
+        padding: 30px 25px;
+    }
+
+    .team-member-list {
+        padding-right: 0;
+    }
+    .single-team-member {
+        .content {
+            padding: 15px;
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .single-funfacts-box {
+        padding: {
+            left: 100px;
+            right: 10px;
+        };
+        .icon {
+            left: 10px;
+            width: 75px;
+        }
+    }
+    .shape11 {
+        img {
+            width: 170px;
+        }
+    }
+    .shape12 {
+        img {
+            width: 180px;
+        }
+    }
+
+    /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+
+    .cybersecurity-banner-area {
+        padding: {
+            top: 80px;
+            bottom: 80px;
+        };
+    }
+    .cybersecurity-banner-content {
+        top: 0;
+    }
+
+    .cyber-safety-content {
+        padding-left: 0;
+
+        .safety-list {
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .single-features-card {
+        &.with-black-color {
+            padding: 30px 25px;
+
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .platforms-item {
+        &.with-white-color {
+            .arrow-image {
+                right: -85px;
+            }
+        }
+    }
+
+    /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+
+    .contact-us-inner-box {
+        .contact-form-wrap {
+            max-width: 600px;
+        }
+    }
+}
+
+
+/* Min width 1550px */
+@media only screen and (min-width : 1550px) {
+
+    .shape1 {
+        width: auto;
+        left: 60px;
+        top: 42%;
+    }
+    .shape2 {
+        left: 35%;
+        top: 24%;
+    }
+    .shape3 {
+        bottom: 15%;
+        left: 41%;
+    }
+    .shape4 {
+        bottom: 16%;
+        right: 13%;
+    }
+    .shape6 {
+        bottom: 15%;
+        left: 11%;
+    }
+
+    /*new-css*/
+    .banner-area {
+        .shape1 {
+            left: 12%;
+            top: 29%;
+        }
+        .shape2 {
+            left: 58%;
+            top: 40%;
+        }
+        .shape4 {
+            bottom: 18%;
+            right: auto;
+            left: 11%;
+        }
+        .shape3 {
+            bottom: auto;
+            left: 77%;
+            top: 14%;
+        }
+    }
+    .shape9 {
+        right: 18%;
+        bottom: 36%;
+    }
+    .home-area {
+        z-index: 1;
+        position: relative;
+        padding-top: 120px;
+        background: {
+            color: #f9f9f9;
+            image: url(/images/bg/banner-bg.jpg);
+            position: center center;
+            repeat: no-repeat;
+            size: cover;
+        };
+        &::before {
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 2;
+            content: '';
+            height: 96px;
+            position: absolute;
+            background: {
+                image: url(/images/shape/top-shape2.png);
+                position: center center;
+                repeat: no-repeat;
+                size: cover;
+            };
+        }
+    }
+
+    /* Start "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+
+    .top-header-black-area {
+        .container-fluid {
+            padding: {
+                left: 120px;
+                right: 120px;
+            };
+        }
+    }
+
+    .navbar-area-with-position-relative {
+        .navbar {
+            .container-fluid {
+                padding: {
+                    left: 120px;
+                    right: 120px;
+                };
+            }
+        }
+    }
+    
+    .cybersecurity-banner-area {
+        .container-fluid {
+            padding: {
+                left: 120px;
+                right: 0;
+            };
+        }
+    }
+
+    .value-trade-area {
+        .container-fluid {
+            padding: {
+                left: 120px;
+                right: 120px;
+            };
+        }
+    }
+
+    .cryptocurrency-banner-area {
+        .container-fluid {
+            padding: {
+                left: 120px;
+                right: 120px;
+            };
+        }
+    }
+
+    .ico-landing-banner-area {
+        .container-fluid {
+            padding: {
+                left: 120px;
+                right: 120px;
+            };
+        }
+    }
+
+    /* End "Cybersecurity Demo Responsive, Cryptocurrency Demo Responsive & ICO Landing Demo Responsive" */
+}
+
+@media only screen and (min-width : 1920px) { 
+    .cryptocurrency-banner-area {
+        .container-fluid {
+            max-width: 2070px;
+        }
+    }
+    .navbar-area-with-position-relative .navbar .container-fluid {
+        max-width: 2070px;
+    }
+    .value-trade-area .container-fluid {
+        max-width: 2070px;
+    }
+    .top-header-black-area .container-fluid {
+        max-width: 2070px;
+    }
+    .cybersecurity-banner-area .container-fluid {
+        max-width: 2070px;
+    }
+    .ico-landing-banner-area .container-fluid {
+        max-width: 2070px;
+    }
+}
